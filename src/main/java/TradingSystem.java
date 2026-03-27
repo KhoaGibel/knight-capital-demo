@@ -33,4 +33,7 @@ public class TradingSystem {
             if (orders > 1000) break; 
         }
     }
+    private static void activatePowerPegMode() {
+    System.out.println("Hàm này sẽ gây ra lỗi Knight Capital!");
+}
 }
